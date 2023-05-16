@@ -1,0 +1,38 @@
+{ 
+  "name": "savvysit-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/A-Trott/savvysit-server.git",
+  "author": "A-Trott <100259248+A-Trott@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "db:migrate": "knex migrate:latest --knexfile ./src/db/config/knexfile.cjs",
+    "db:seed": "knex seed:run --knexfile ./src/db/config/knexfile.cjs",
+    "dev": "NODE_ENV=development nodemon -r dotenv/config --experimental-modules --ext cjs,js,json src/index.js dotenv_config_path=.env",
+    "start": "NODE_ENV=production node --experimental-modules src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "mysql2": "^3.2.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "imports": {
+    "#app/*": "./src/*",
+    "#controllers/*": "./src/controllers/*",
+    "#models/*": "./src/models/*",
+    "#services/*": "./src/services/*",
+    "#routes": "./src/routes/index.js",
+    "#utils/*": "./src/utils/*",
+    "#database": "./src/db/connection.js"
+  },
+  "optionalDependencies": {
+    "win-node-env": "^0.6.1"
+  }
+
+}
