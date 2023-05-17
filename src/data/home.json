@@ -1,0 +1,379 @@
+[
+  {
+    "address": "123 Main St",
+    "city": "City 1",
+    "province": "Province 1",
+    "postal_code": "12345",
+    "country": "Country 1",
+    "lock_codes": [
+      "1234"
+    ],
+    "car_access": false,
+    "mail_dates": [
+      "2023-06-10",
+      "2023-06-12",
+      "2023-06-14"
+    ],
+    "electrical_box_location": "Basement",
+    "water_shutoff_location": "Utility room",
+    "house_rules": "No smoking indoors",
+    "cleaning_routines": "Clean the kitchen daily",
+    "garbage": {
+      "dates": [
+        "2023-06-11",
+        "2023-06-15",
+        "2023-06-19"
+      ],
+      "location": "Garbage bin at the back"
+    },
+    "recycling": {
+      "dates": [
+        "2023-06-12",
+        "2023-06-16"
+      ],
+      "location": "Recycling bin on the side"
+    },
+    "security_cameras": true,
+    "security_camera_locations": [
+      "Front door",
+      "Backyard"
+    ],
+    "emergency_contacts": {
+      "housing": {
+        "strata": "1234",
+        "property_management": "5678"
+      },
+      "medical": {
+        "vet": "Dr. Smith",
+        "family_friend": "John Doe"
+      },
+      "additional_numbers": {
+        "neighbor": "Jane Smith",
+        "other": "Emergency Services"
+      },
+      "owner_contact_methods": [
+        "Phone",
+        "Email"
+      ]
+    }
+  },
+  {
+    "address": "456 Elm St",
+    "city": "City 2",
+    "province": "Province 2",
+    "postal_code": "54321",
+    "country": "Country 2",
+    "lock_codes": [
+      "5678"
+    ],
+    "car_access": true,
+    "mail_dates": [
+      "2023-06-13",
+      "2023-06-15",
+      "2023-06-17"
+    ],
+    "electrical_box_location": "Basement",
+    "water_shutoff_location": "Garage",
+    "house_rules": "No pets allowed",
+    "cleaning_routines": "Vacuum the floors weekly",
+    "garbage": {
+      "dates": [
+        "2023-06-14",
+        "2023-06-18",
+        "2023-06-22"
+      ],
+      "location": "Garbage bin at the side"
+    },
+    "recycling": {
+      "dates": [
+        "2023-06-16",
+        "2023-06-20"
+      ],
+      "location": "Recycling bin in the backyard"
+    },
+    "security_cameras": false,
+    "security_camera_locations": [],
+    "emergency_contacts": {
+      "housing": {
+        "strata": "4321",
+        "property_management": "8765"
+      },
+      "medical": {
+        "vet": "Dr. Johnson",
+        "family_friend": "Jane Doe"
+      },
+      "additional_numbers": {
+        "neighbor": "John Smith",
+        "other": "Fire Department"
+      },
+      "owner_contact_methods": [
+        "Phone",
+        "Email"
+      ]
+    }
+  },
+  {
+    "address": "789 Oak St",
+    "city": "City 3",
+    "province": "Province 3",
+    "postal_code": "67890",
+    "country": "Country 3",
+    "lock_codes": [
+      "9876"
+    ],
+    "car_access": false,
+    "mail_dates": [
+      "2023-06-11",
+      "2023-06-13",
+      "2023-06-15"
+    ],
+    "electrical_box_location": "Basement",
+    "water_shutoff_location": "Kitchen",
+    "house_rules": "No loud music after 10 PM",
+    "cleaning_routines": "Wash the dishes daily",
+    "garbage": {
+      "dates": [
+        "2023-06-12",
+        "2023-06-16",
+        "2023-06-20"
+      ],
+      "location": "Garbage bin at the front"
+    },
+    "recycling": {
+      "dates": [
+        "2023-06-14",
+        "2023-06-18"
+      ],
+      "location": "Recycling bin on the side"
+    },
+    "security_cameras": true,
+    "security_camera_locations": [
+      "Front door",
+      "Backyard"
+    ],
+    "emergency_contacts": {
+      "housing": {
+        "strata": "9876",
+        "property_management": "5432"
+      },
+      "medical": {
+        "vet": "Dr. Anderson",
+        "family_friend": "Sarah Johnson"
+      },
+      "additional_numbers": {
+        "neighbor": "David Smith",
+        "other": "Police Department"
+      },
+      "owner_contact_methods": [
+        "Phone",
+        "Email"
+      ]
+    }
+  },
+  {
+    "address": "321 Pine St",
+    "city": "City 4",
+    "province": "Province 4",
+    "postal_code": "45678",
+    "country": "Country 4",
+    "lock_codes": [
+      "4321"
+    ],
+    "car_access": true,
+    "mail_dates": [
+      "2023-06-14",
+      "2023-06-16",
+      "2023-06-18"
+    ],
+    "electrical_box_location": "Basement",
+    "water_shutoff_location": "Bathroom",
+    "house_rules": "No shoes inside",
+    "cleaning_routines": "Dust the furniture weekly",
+    "garbage": {
+      "dates": [
+        "2023-06-15",
+        "2023-06-19",
+        "2023-06-23"
+      ],
+      "location": "Garbage bin at the side"
+    },
+    "recycling": {
+      "dates": [
+        "2023-06-17",
+        "2023-06-21"
+      ],
+      "location": "Recycling bin in the backyard"
+    },
+    "security_cameras": true,
+    "security_camera_locations": [
+      "Front door",
+      "Backyard",
+      "Living room"
+    ],
+    "emergency_contacts": {
+      "housing": {
+        "strata": "1234",
+        "property_management": "5678"
+      },
+      "medical": {
+        "vet": "Dr. Thompson",
+        "family_friend": "Mary Davis"
+      },
+      "additional_numbers": {
+        "neighbor": "Richard Johnson",
+        "other": "Ambulance Services"
+      },
+      "owner_contact_methods": [
+        "Phone",
+        "Email"
+      ]
+    }
+  },
+  {
+    "address": "654 Maple St",
+    "city": "City 5",
+    "province": "Province 5",
+    "postal_code": "56789",
+    "country": "Country 5",
+    "lock_codes": [
+      "2468"
+    ],
+    "car_access": false,
+    "mail_dates": [
+      "2023-06-12",
+      "2023-06-14",
+      "2023-06-16"
+    ],
+    "electrical_box_location": "Basement",
+    "water_shutoff_location": "Laundry room",
+    "house_rules": "No pets allowed",
+    "cleaning_routines": "Mop the floors weekly",
+    "garbage": {
+      "dates": [
+        "2023-06-13",
+        "2023-06-17",
+        "2023-06-21"
+      ],
+      "location": "Garbage bin at the front"
+    },
+    "recycling": {
+      "dates": [
+        "2023-06-15",
+        "2023-06-19"
+      ],
+      "location": "Recycling bin on the side"
+    },
+    "security_cameras": false,
+    "security_camera_locations": [],
+    "emergency_contacts": {
+      "housing": {
+        "strata": "5678",
+        "property_management": "1234"
+      },
+      "medical": {
+        "vet": "Dr. Martinez",
+        "family_friend": "Jennifer Brown"
+      },
+      "additional_numbers": {
+        "neighbor": "Emily Wilson",
+        "other": "Fire Department"
+      },
+      "owner_contact_methods": [
+        "Phone",
+        "Email"
+      ]
+    }
+  },
+  {
+    "address": "789 Oak St",
+    "city": "City 6",
+    "province": "Province 6",
+    "postal_code": "98765",
+    "country": "Country 6",
+    "lock_codes": [
+      "1357"
+    ],
+    "car_access": true,
+    "mail_dates": [
+      "2023-06-11",
+      "2023-06-13",
+      "2023-06-15"
+    ],
+    "electrical_box_location": "Garage",
+    "water_shutoff_location": "Kitchen",
+    "house_rules": "No smoking indoors",
+    "cleaning_routines": "Clean the bathroom daily",
+    "garbage": {
+      "dates": [
+        "2023-06-12",
+        "2023-06-16",
+        "2023-06-20"
+      ],
+      "location": "Garbage bin at the side"
+    },
+    "recycling": {
+      "dates": [
+        "2023-06-14",
+        "2023-06-18"
+      ],
+      "location": "Recycling bin in the backyard"
+    },
+    "security_cameras": true,
+    "security_camera_locations": [
+      "Front door",
+      "Backyard"
+    ],
+    "emergency_contacts": {
+      "housing": {
+        "strata": "9876",
+        "property_management": "5432"
+      },
+      "medical": {
+        "vet": "Dr. Rodriguez",
+        "family_friend": "Robert Johnson"
+      },
+      "additional_numbers": {
+        "neighbor": "Jessica Davis",
+        "other": "Emergency Services"
+      },
+      "owner_contact_methods": [
+        "Phone",
+        "Email"
+      ]
+    }
+  },
+  {
+    "address": "321 Pine St",
+    "city": "City 7",
+    "province": "Province 7",
+    "postal_code": "87654",
+    "country": "Country 7",
+    "lock_codes": [
+      "8642"
+    ],
+    "car_access": false,
+    "mail_dates": [
+      "2023-06-13",
+      "2023-06-15",
+      "2023-06-17"
+    ],
+    "electrical_box_location": "Basement",
+    "water_shutoff_location": "Laundry room",
+    "house_rules": "No pets allowed",
+    "cleaning_routines": "Dust the furniture weekly",
+    "garbage": {
+      "dates": [
+        "2023-06-14",
+        "2023-06-18",
+        "2023-06-22"
+      ],
+      "location": "Garbage bin at the front"
+    },
+    "recycling": {
+      "dates": [
+        "2023-06-16",
+        "2023-06-20"
+      ]
+    }
+  }
+]

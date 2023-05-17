@@ -1,0 +1,396 @@
+ [
+{
+"id": 1,
+"owner_id": 4,
+"name": "Fluffy",
+"animal_type": "Cat",
+"age": 5,
+  "dietary": {
+    "food_types": ["Dry food", "Canned food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["9:00 AM", "6:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Dog treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "Heartworm preventive",
+      "dosage": "1 tablet per day"
+    }
+  },
+  "grooming": {
+    "brushing": "Once a day",
+    "litter_box": "",
+    "pee_poo_times": [],
+    "baths": "Once a month"
+  },
+  "activities": {
+    "walking": {
+      "frequency": "Once a day",
+      "duration": "30 minutes"
+    },
+    "let_outside": true,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": false,
+    "cautious": true,
+    "reactionary": false
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+},
+{
+"id": 2,
+"owner_id": 4,
+"name": "Max",
+"animal_type": "Dog",
+"age": 3,
+  "dietary": {
+    "food_types": ["Wet food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["8:00 AM", "5:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Cat treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "",
+      "dosage": ""
+    }
+  },
+  "grooming": {
+    "brushing": "Twice a week",
+    "litter_box": "Clean twice a day",
+    "pee_poo_times": ["7:00 AM", "9:00 PM"],
+    "baths": ""
+  },
+  "activities": {
+    "walking": {
+      "frequency": "",
+      "duration": ""
+    },
+    "let_outside": false,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": true,
+    "cautious": true,
+    "reactionary": false
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+},
+{
+"id": 3,
+"owner_id": 5,
+"name": "Bella",
+"animal_type": "Dog",
+"age": 2,
+  "dietary": {
+    "food_types": ["Dry food"],
+    "daily_distribution": "3 times a day",
+    "times_per_day": ["8:00 AM", "12:00 PM", "6:00 PM"],
+    "water_change": "Twice a day",
+    "snacks": ["Dog treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "Flea and tick preventive",
+      "dosage": "Apply as directed"
+    }
+  },
+  "grooming": {
+    "brushing": "Once a day",
+    "litter_box": "",
+    "pee_poo_times": [],
+    "baths": "Once a month"
+  },
+  "activities": {
+    "walking": {
+      "frequency": "Twice a day",
+      "duration": "20 minutes"
+    },
+    "let_outside": true,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": false,
+    "cautious": false,
+    "reactionary": true
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+},
+{
+"id": 4,
+"owner_id": 6,
+"name": "Charlie",
+"animal_type": "Dog",
+"age": 4,
+  "dietary": {
+    "food_types": ["Dry food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["9:00 AM", "5:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Dog treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "",
+      "dosage": ""
+    }
+  },
+  "grooming": {
+    "brushing": "Once a week",
+    "litter_box": "",
+    "pee_poo_times": [],
+    "baths": "Once every 3 months"
+  },
+  "activities": {
+    "walking": {
+      "frequency": "Once a day",
+      "duration": "30 minutes"
+    },
+    "let_outside": true,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": false,
+    "cautious": false,
+    "reactionary": true
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": ""
+},
+{
+"id": 5,
+"owner_id": 6,
+"name": "Luna",
+"animal_type": "Cat",
+"age": 1,
+  "dietary": {
+    "food_types": ["Dry food", "Canned food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["9:00 AM", "6:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Cat treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "",
+      "dosage": ""
+    }
+  },
+  "grooming": {
+    "brushing": "Once a day",
+    "litter_box": "Clean once a day",
+    "pee_poo_times": ["8:00 AM"],
+    "baths": ""
+  },
+  "activities": {
+    "walking": {
+      "frequency": "",
+      "duration": ""
+    },
+    "let_outside": false,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": true,
+    "cautious": true,
+    "reactionary": false
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+},
+{
+"id": 6,
+"owner_id": 7,
+"name": "Rocky",
+"animal_type": "Dog",
+"age": 6
+},
+{
+"id": 7,
+"owner_id": 8,
+"name": "Oliver",
+"animal_type": "Cat",
+"age": 2,
+  "dietary": {
+    "food_types": ["Wet food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["8:00 AM", "6:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Cat treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "",
+      "dosage": ""
+    }
+  },
+  "grooming": {
+    "brushing": "Twice a week",
+    "litter_box": "Clean once a day",
+    "pee_poo_times": ["7:00 AM", "9:00 PM"],
+    "baths": ""
+  },
+  "activities": {
+    "walking": {
+      "frequency": "",
+      "duration": ""
+    },
+    "let_outside": false,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": true,
+    "cautious": true,
+    "reactionary": false
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+},
+{
+"id": 8,
+"owner_id": 8,
+"name": "Lucy",
+"animal_type": "Dog",
+"age": 3,
+  "dietary": {
+    "food_types": ["Dry food", "Canned food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["8:00 AM", "5:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Dog treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "",
+      "dosage": ""
+    }
+  },
+  "grooming": {
+    "brushing": "Once a day",
+    "litter_box": "",
+    "pee_poo_times": [],
+    "baths": "Once every 2 months"
+  },
+  "activities": {
+    "walking": {
+      "frequency": "Twice a day",
+      "duration": "30 minutes"
+    },
+    "let_outside": true,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": false,
+    "cautious": false,
+    "reactionary": false
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+},
+{
+"id": 9,
+"owner_id": 9,
+"name": "Simba",
+"animal_type": "Cat",
+"age": 4,
+  "dietary": {
+    "food_types": ["Wet food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["8:00 AM", "5:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Cat treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "",
+      "dosage": ""
+    }
+  },
+  "grooming": {
+    "brushing": "Twice a week",
+    "litter_box": "Clean twice a day",
+    "pee_poo_times": ["7:00 AM", "9:00 PM"],
+    "baths": ""
+  },
+  "activities": {
+    "walking": {
+      "frequency": "",
+      "duration": ""
+    },
+    "let_outside": false,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": true,
+    "cautious": true,
+    "reactionary": false
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+},
+{
+"id": 10,
+"owner_id": 10,
+"name": "Milo",
+"animal_type": "Cat",
+"age": 1,
+  "dietary": {
+    "food_types": ["Dry food", "Canned food"],
+    "daily_distribution": "2 times a day",
+    "times_per_day": ["9:00 AM", "6:00 PM"],
+    "water_change": "Once a day",
+    "snacks": ["Cat treats"]
+  },
+  "health": {
+    "medical_issues": "None",
+    "medicine": {
+      "name": "",
+      "dosage": ""
+    }
+  },
+  "grooming": {
+    "brushing": "Once a day",
+    "litter_box": "Clean once a day",
+    "pee_poo_times": ["8:00 AM"],
+    "baths": ""
+  },
+  "activities": {
+    "walking": {
+      "frequency": "",
+      "duration": ""
+    },
+    "let_outside": false,
+    "playing": true
+  },
+  "personality": {
+    "affectionate": true,
+    "shy": true,
+    "cautious": true,
+    "reactionary": false
+  },
+  "created_at": "2023-06-01T10:00:00Z",
+  "updated_at": "2023-06-01T10:00:00Z"
+}
+]
