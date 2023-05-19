@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import profileRouter from '#app/routes/profile.js'
+import petsRouter from '#app/routes/pets.js'
 
 const routes = Router();
 
@@ -8,6 +9,8 @@ const routes = Router();
 
 // All Possible Routes
 
-routes.use('/api/profiles', profileRouter)
+routes.use('/api/profile', profileRouter)
+routes.use('/api/pets', petsRouter)
+
 
 export default routes
