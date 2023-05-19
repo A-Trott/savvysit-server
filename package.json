@@ -1,7 +1,8 @@
-{ 
+{
   "name": "savvysit-server",
   "version": "1.0.0",
   "main": "src/index.js",
+  "type": "module",
   "repository": "https://github.com/A-Trott/savvysit-server.git",
   "author": "A-Trott <100259248+A-Trott@users.noreply.github.com>",
   "license": "MIT",
@@ -15,7 +16,8 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "knex": "^2.4.2",
-    "mysql2": "^3.2.4"
+    "mysql2": "^3.2.4",
+    "objection": "^3.0.1"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
@@ -29,10 +31,10 @@
     "#services/*": "./src/services/*",
     "#routes": "./src/routes/index.js",
     "#utils/*": "./src/utils/*",
-    "#database": "./src/db/connection.js"
+    "#database": "./src/db/connection.js",
+    "#data/*": "./src/data/*"
   },
   "optionalDependencies": {
     "win-node-env": "^0.6.1"
   }
-
 }

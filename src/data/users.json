@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "username": "austin",
+    "email": "austin@example.com",
+    "password": "password123",
+    "profile_id": 1
+  },
+  {
+    "id": 2,
+    "username": "janedoe",
+    "email": "janedoe@example.com",
+    "password": "password123",
+    "profile_id": 2
+  },
+  {
+    "id": 3,
+    "username": "marksmith",
+    "email": "marksmith@example.com",
+    "password": "password123",
+    "profile_id": 3
+  },
+  {
+    "id": 4,
+    "username": "sarahlee",
+    "email": "sarahlee@example.com",
+    "password": "password123",
+    "profile_id": 4
+  },
+  {
+    "id": 5,
+    "username": "michaelbrown",
+    "email": "michaelbrown@example.com",
+    "password": "password123",
+    "profile_id": 5
+  },
+  {
+    "id": 6,
+    "username": "emilyjohnson",
+    "email": "emilyjohnson@example.com",
+    "password": "password123",
+    "profile_id": 6
+  },
+  {
+    "id": 7,
+    "username": "davidwilliams",
+    "email": "davidwilliams@example.com",
+    "password": "password123",
+    "profile_id": 7
+  },
+  {
+    "id": 8,
+    "username": "olivertaylor",
+    "email": "olivertaylor@example.com",
+    "password": "password123",
+    "profile_id": 8
+  },
+  {
+    "id": 9,
+    "username": "sophiasmith",
+    "email": "sophiasmith@example.com",
+    "password": "password123",
+    "profile_id": 9
+  },
+  {
+    "id": 10,
+    "username": "noahmartin",
+    "email": "noahmartin@example.com",
+    "password": "password123",
+    "profile_id": 10
+  }
+]
